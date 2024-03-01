@@ -1,4 +1,10 @@
 import React from 'react'
+import comlogo1 from "../assets/img/com-logo-1.jpg";
+import comlogo2 from "../assets/img/com-logo-2.jpg";
+import comlogo3 from "../assets/img/com-logo-3.jpg";
+import comlogo4 from "../assets/img/com-logo-4.jpg";
+import comlogo5 from "../assets/img/com-logo-5.jpg";
+
 
 function Joblist() {
     return (
@@ -28,7 +34,7 @@ function Joblist() {
                     </div>
                     <div className="job-item p-6 mb-6 grid md:grid-cols-3 gap-6">
                         <div className="flex md:col-span-2">
-                            <img className="flex-shrink-0 border object-cover rounded-sm w-20 h-20" src="src/assets/img/com-logo-1.jpg"
+                            <img className="flex-shrink-0 border object-cover rounded-sm w-20 h-20" src={comlogo1}
                                 alt="Software Engineer" />
                             <div className="text-start ps-4">
                                 <h5 className="mb-4">Software Engineer</h5>
@@ -54,7 +60,7 @@ function Joblist() {
                     </div>
                     <div className="job-item p-6 mb-6 grid md:grid-cols-3 gap-6">
                         <div className="flex md:col-span-2">
-                            <img className="flex-shrink-0 border object-cover rounded-sm w-20 h-20" src="src/assets/img/com-logo-2.jpg"
+                            <img className="flex-shrink-0 border object-cover rounded-sm w-20 h-20" src={comlogo2}
                                 alt="Marketing Manager" />
                             <div className="text-start ps-4">
                                 <h5 className="mb-4">Marketing Manager</h5>
@@ -80,7 +86,7 @@ function Joblist() {
                     </div>
                     <div className="job-item p-6 mb-6 grid md:grid-cols-3 gap-6">
                         <div className="flex md:col-span-2">
-                            <img className="flex-shrink-0 border object-cover rounded-sm w-20 h-20" src="src/assets/img/com-logo-3.jpg"
+                            <img className="flex-shrink-0 border object-cover rounded-sm w-20 h-20" src={comlogo3}
                                 alt="Product Designer" />
                             <div className="text-start ps-4">
                                 <h5 className="mb-4">Product Designer</h5>
@@ -106,7 +112,7 @@ function Joblist() {
                     </div>
                     <div className="job-item p-6 mb-6 grid md:grid-cols-3 gap-6">
                         <div className="flex md:col-span-2">
-                            <img className="flex-shrink-0 border object-cover rounded-sm w-20 h-20" src="src/assets/img/com-logo-4.jpg"
+                            <img className="flex-shrink-0 border object-cover rounded-sm w-20 h-20" src={comlogo4}
                                 alt="Creative Director" />
                             <div className="text-start ps-4">
                                 <h5 className="mb-4">Creative Director</h5>
@@ -132,7 +138,7 @@ function Joblist() {
                     </div>
                     <div className="job-item p-6 mb-6 grid md:grid-cols-3 gap-6">
                         <div className="flex md:col-span-2">
-                            <img className="flex-shrink-0 border object-cover rounded-sm w-20 h-20" src="src/assets/img/com-logo-5.jpg"
+                            <img className="flex-shrink-0 border object-cover rounded-sm w-20 h-20" src={comlogo5}
                                 alt="Wordpress Developer" />
                             <div className="text-start ps-4">
                                 <h5 className="mb-4">Wordpress Developer</h5>
